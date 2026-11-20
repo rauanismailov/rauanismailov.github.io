@@ -5,6 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Rauan Ismailov — Projects</title>
   <meta name="description" content="Rauan Ismailov builds small tools that make everyday work easier.">
+
+  <!-- Значок вкладки. Используем тот же файл, что и для аватара. -->
+  <link id="favicon" rel="icon" type="image/webp" href="./ismail7ov.webp">
+
   <style>
     * { box-sizing: border-box; }
     body { margin: 0; background: #030303; color: #fafafa; font: 100%/1.4 Inter, Arial, sans-serif; }
@@ -30,6 +34,7 @@
     .project h3 { font-size: clamp(24px, 2.55vw, 40px); letter-spacing: -.03em; font-weight: 600; }
     .project p, .project span { color: #d5d5d5; }
     .project b { font-size: 1.4em; font-weight: 400; }
+
     @media (max-width: 680px) {
       main { width: 88%; }
       header { flex-direction: column; align-items: flex-start; }
@@ -47,36 +52,104 @@
   <main>
     <header>
       <div class="grid" aria-hidden="true"></div>
-      <img class="avatar" src="./ismail7ov.webp" alt="" width="256">
+      <img id="avatar" class="avatar" src="./ismail7ov.webp" alt="" width="256">
+
       <div>
         <h1>Rauan Ismailov</h1>
         <p>imagine. create. repeat.</p>
-        <!-- Замените YOUR_HANDLE в каждой ссылке на имя соответствующего профиля. -->
+
         <nav aria-label="Social profiles">
           <a href="https://x.com/ismail7ov" aria-label="X">
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.9 2H22l-6.8 7.8L23.2 22h-6.3l-5-7.5L5.3 22H2.1l8.4-9.6L.8 2h6.5l5.8 7.3L18.9 2Zm-1.1 18h2L6.4 3.9H4.3L17.8 20Z" fill-rule="evenodd"/></svg>
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M18.9 2H22l-6.8 7.8L23.2 22h-6.3l-5-7.5L5.3 22H2.1l8.4-9.6L.8 2h6.5l5.8 7.3L18.9 2Zm-1.1 18h2L6.4 3.9H4.3L17.8 20Z" fill-rule="evenodd"/>
+            </svg>
           </a>
-          <a href="https://www.linkedin.com/in/rauan-ismailov-a20200450?utm_source=share_via&utm_content=profile&utm_medium=member_android" aria-label="LinkedIn">
-            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="1" y="1" width="22" height="22" rx="2"/><g fill="#030303"><circle cx="6.5" cy="7" r="1.5"/><path d="M5 10h3v9H5zm5 0h3v1.3c1.8-2.6 7-2.3 7 2.5V19h-3v-4.6c0-2.7-4-2.9-4 .2V19h-3z"/></g></svg>
+
+          <a href="https://www.linkedin.com/in/rauan-ismailov-a20200450?utm_source=share_via&amp;utm_content=profile&amp;utm_medium=member_android" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <rect x="1" y="1" width="22" height="22" rx="2"/>
+              <g fill="#030303">
+                <circle cx="6.5" cy="7" r="1.5"/>
+                <path d="M5 10h3v9H5zm5 0h3v1.3c1.8-2.6 7-2.3 7 2.5V19h-3v-4.6c0-2.7-4-2.9-4 .2V19h-3z"/>
+              </g>
+            </svg>
           </a>
+
           <a href="https://www.instagram.com/ismail7ov?hvrq=MWJzeXIyYTBsbTdmdw%3D%3D" aria-label="Instagram">
-            <svg viewBox="0 0 24 24" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="2"><rect x="1.5" y="1.5" width="21" height="21" rx="6"/><circle cx="12" cy="12" r="4.8"/></g><circle cx="18.2" cy="5.9" r="1.35"/></svg>
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <g fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="1.5" y="1.5" width="21" height="21" rx="6"/>
+                <circle cx="12" cy="12" r="4.8"/>
+              </g>
+              <circle cx="18.2" cy="5.9" r="1.35"/>
+            </svg>
           </a>
         </nav>
       </div>
     </header>
+
     <section aria-labelledby="projects">
       <h2 id="projects">Projects</h2>
-      <!-- Замените ссылки example.com на адреса проектов. -->
-      <a class="project" href="https://play.google.com/store/apps/details?id=syztap.app&hl=en_US">
-        <div><h3>Syztap</h3><p>AI Screen Agent</p></div>
-        <span>Founder</span><span>Oct 2026 – Present</span><b aria-hidden="true">↗</b>
+
+      <a class="project" href="https://play.google.com/store/apps/details?id=syztap.app&amp;hl=en_US">
+        <div>
+          <h3>Syztap</h3>
+          <p>AI Screen Agent</p>
+        </div>
+        <span>Founder</span>
+        <span>Oct 2026 – Present</span>
+        <b aria-hidden="true">↗</b>
       </a>
-      <a class="project" href="https://play.google.com/store/apps/details?id=com.dosteem.app&hl=en_US">
-        <div><h3>Dosteem</h3><p>Learn English via your favorite apps</p></div>
-        <span>Founder</span><span>Dec 2025 – Present</span><b aria-hidden="true">↗</b>
+
+      <a class="project" href="https://play.google.com/store/apps/details?id=com.dosteem.app&amp;hl=en_US">
+        <div>
+          <h3>Dosteem</h3>
+          <p>Learn English via your favorite apps</p>
+        </div>
+        <span>Founder</span>
+        <span>Dec 2025 – Present</span>
+        <b aria-hidden="true">↗</b>
       </a>
     </section>
   </main>
+
+  <script>
+    const avatar = document.getElementById("avatar");
+    const favicon = document.getElementById("favicon");
+
+    function setRoundFavicon() {
+      if (!avatar.naturalWidth) return;
+
+      const size = 64;
+      const canvas = document.createElement("canvas");
+      canvas.width = size;
+      canvas.height = size;
+
+      const context = canvas.getContext("2d");
+      if (!context) return;
+
+      // Берём квадрат из центра изображения, как у аватара на странице.
+      const cropSize = Math.min(avatar.naturalWidth, avatar.naturalHeight);
+      const cropX = (avatar.naturalWidth - cropSize) / 2;
+      const cropY = (avatar.naturalHeight - cropSize) / 2;
+
+      context.beginPath();
+      context.arc(size / 2, size / 2, size / 2, 0, Math.PI * 2);
+      context.clip();
+      context.drawImage(avatar, cropX, cropY, cropSize, cropSize, 0, 0, size, size);
+
+      const roundIcon = favicon.cloneNode();
+      roundIcon.type = "image/png";
+      roundIcon.sizes = "64x64";
+      roundIcon.href = canvas.toDataURL("image/png");
+      favicon.replaceWith(roundIcon);
+    }
+
+    if (avatar.complete) {
+      setRoundFavicon();
+    } else {
+      avatar.addEventListener("load", setRoundFavicon, { once: true });
+    }
+  </script>
 </body>
 </html>
